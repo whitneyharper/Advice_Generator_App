@@ -14,11 +14,30 @@ body{
     background-color: hsl(217, 19%, 24%);
 }
 
-@media screen and (max-width: 376px) {
-  .divider {
-    content:url("./images/pattern-divider-mobile.svg")
-  }
+.card-title {
+  font-size: 14px;
+  color: hsl(150, 100%, 66%)
+}
 
-  
+.btn{
+  background-color: hsl(150, 100%, 66%)
+}
+
+@media screen and (min-width: 992px) {
+  .divider {
+    content:url("/images/pattern-divider-desktop.svg")
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .card{
+    width: 75%;
+  }
+}
+
+@media screen and (min-width: 991px){
+  .card{
+    width: 50%;
+  }
 }
     
