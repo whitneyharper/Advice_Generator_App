@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(218, 23%, 16%);
+    font-size: 28px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    color: hsl(193, 38%, 86%)
+}
+
+.card{
+    background-color: hsl(217, 19%, 24%);
+}
+
+@media screen and (max-width: 376px) {
+  .divider {
+    content:url("./images/pattern-divider-mobile.svg")
+  }
+
+  
+}
+    
