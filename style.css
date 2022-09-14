@@ -19,9 +19,21 @@ body{
   color: hsl(150, 100%, 66%)
 }
 
-.btn{
+#button{
   background-color: hsl(150, 100%, 66%)
 }
+
+
+
+#button:hover{
+  background-color: hsl(150, 100%, 66%);
+  box-shadow: 0 5px 15px hsl(150, 100%, 66%);
+  transition: 0.7s;
+  border-color: hsl(150, 100%, 66%);
+  
+}
+
+
 
 @media screen and (min-width: 992px) {
   .divider {
