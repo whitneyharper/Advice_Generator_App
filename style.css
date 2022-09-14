@@ -16,24 +16,21 @@ body{
 
 .card-title {
   font-size: 14px;
-  color: hsl(150, 100%, 66%)
+  color: hsl(150, 100%, 66%);
+  letter-spacing: 5px;
+  font-weight: bold;
 }
 
 #button{
   background-color: hsl(150, 100%, 66%)
 }
 
-
-
 #button:hover{
   background-color: hsl(150, 100%, 66%);
   box-shadow: 0 5px 15px hsl(150, 100%, 66%);
   transition: 0.7s;
   border-color: hsl(150, 100%, 66%);
-  
 }
-
-
 
 @media screen and (min-width: 992px) {
   .divider {
